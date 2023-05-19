@@ -1,67 +1,51 @@
 <html>
-<head>
+  <head>
+
   </head>
   <body>
-    <div class="container">
-      <div class="first"> First </div>
-      <div class="second"> Second </div>
-      <div class="third"> Third </div>
-      <h1> text </h1>
-      <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/MarioNSMBUDeluxe.png">
-    </div>
+    
+    <nav>
+      <li class="nav"><a href="index.html"> HOME </a></li>
+      <li class="nav"><a href="page2.html"> PROJECTS </a></li>
+      <li class="nav"><a href="https://joshuabyun0614.wixsite.com/webportfolio"> PHOTOGRAPHY </a>
+      </li>
+    </nav>
+    <br>
+    </br>
+  
+  <center>
+  <h1>
+     Josh's Webstie
+    </h1>
+  </center>
+
   </body>
 </html>
 
 <style>
-.container {
-  width: 90%; 
-  background-color: white;
-  height: 95vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
+  
 
-body{
-  background-color: salmon;
+nav{
+  list-style-type: none;
+  position: fixed;
+  background-color: #A3D5FF;
+  width:100%;
+  left: 0;
+  top:0;
+  
 }
-
-.first{
-  background-color: salmon;
-  height: 10vh;
-  width: 10vw;
-  border: solid red;
-}
-
-.second{
-  background-color: salmon;
-}
-
-.third{
-  background-color: salmon;
-  border-radius: 15%;
-  border: solid;
+.nav{
+  display: inline;
+  float: left;
   padding: 10px;
 }
-img{
-  width: 20vw;
-  height: 10vh;
+a{
+  text-decoration: none;
+  color: #6F73D2;
+  font-size: 20px;
 }
-@media only screen and (max-width: 1024px) {
-  .container {
-    flex-direction: column;    
-  }
-  body{
-    background-color:gray;
-  }
-  .first{
-    border: solid 5px;
-  }
-  .second{
-    font-size: 100px;
-  }
-  img {
-    width: 10px;
-  }
+
+.nav:hover{
+  background-color: #D6ECFF;
 }
 </style>
