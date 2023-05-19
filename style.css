@@ -1,3 +1,49 @@
-body {
+<html>
+  <head>
 
+  </head>
+  <body>
+    
+    <nav>
+      <li class="nav"><a href="index.html"> HOME </a></li>
+      <li class="nav"><a href="page2.html"> PROJECTS </a></li>
+      <li class="nav"><a href="https://joshuabyun0614.wixsite.com/webportfolio"> PHOTOGRAPHY </a>
+      </li>
+    </nav>
+    <br>
+    </br>
+  <br></br>
+  <center>
+ <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/l6cUGFi9w0msRIWdOQVgh6pZtQeny_DTsO8VfhPymHc/embed"></iframe>
+  </center>
+
+  </body>
+</html>
+
+<style>
+
+
+nav{
+  list-style-type: none;
+  position: fixed;
+  background-color: #A3D5FF;
+  width:100%;
+  left: 0;
+  top:0;
+  
 }
+.nav{
+  display: inline;
+  float: left;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: #6F73D2;
+  font-size: 20px;
+}
+
+.nav:hover{
+  background-color: #D6ECFF;
+}
+</style>
